@@ -1,0 +1,42 @@
+[
+  {
+    "Target": "testdockerservicio_app2 (alpine 3.10.5)",
+    "Type": "alpine",
+    "Vulnerabilities": [
+      {
+        "VulnerabilityID": "CVE-2020-28928",
+        "PkgName": "musl",
+        "InstalledVersion": "1.1.22-r3",
+        "FixedVersion": "1.1.22-r4",
+        "Layer": {
+          "DiffID": "sha256:1b3ee35aacca9866b01dd96e870136266bde18006ac2f0d6eb706c798d1fa3c3"
+        },
+        "Description": "In musl libc through 1.2.1, wcsnrtombs mishandles particular combinations of destination buffer size and source character limit, as demonstrated by an invalid write access (buffer overflow).",
+        "Severity": "UNKNOWN",
+        "References": [
+          "http://www.openwall.com/lists/oss-security/2020/11/20/4",
+          "https://musl.libc.org/releases.html"
+        ],
+        "PublishedDate": "2020-11-24T18:15:00Z",
+        "LastModifiedDate": "2020-11-24T18:36:00Z"
+      },
+      {
+        "VulnerabilityID": "CVE-2020-28928",
+        "PkgName": "musl-utils",
+        "InstalledVersion": "1.1.22-r3",
+        "FixedVersion": "1.1.22-r4",
+        "Layer": {
+          "DiffID": "sha256:1b3ee35aacca9866b01dd96e870136266bde18006ac2f0d6eb706c798d1fa3c3"
+        },
+        "Description": "In musl libc through 1.2.1, wcsnrtombs mishandles particular combinations of destination buffer size and source character limit, as demonstrated by an invalid write access (buffer overflow).",
+        "Severity": "UNKNOWN",
+        "References": [
+          "http://www.openwall.com/lists/oss-security/2020/11/20/4",
+          "https://musl.libc.org/releases.html"
+        ],
+        "PublishedDate": "2020-11-24T18:15:00Z",
+        "LastModifiedDate": "2020-11-24T18:36:00Z"
+      }
+    ]
+  }
+]
